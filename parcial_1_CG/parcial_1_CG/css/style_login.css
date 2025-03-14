@@ -1,0 +1,319 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+body h5 {
+    display: grid;
+    justify-content: center;
+}
+
+.navegacion_web {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 200px 600px 100px 150px;
+    grid-gap: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.navegacion_web i:hover {
+    cursor: pointer;
+}
+
+.navegacion_web i {
+    font-size: 30px;
+    display: grid;
+    justify-content: center;
+}
+
+.navegacion_web a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    display: grid;
+    justify-content: center;
+}
+
+.interfaz {
+    display: grid;
+    grid-template-rows: 0.1fr 0.5fr;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.cabezera {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+.logo {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_consulta {
+    display: grid;
+    grid-template-rows: repeat(2, 200px);
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.login {
+    display: grid;
+    grid-template-columns: 700px 100px 100px 100px;
+    grid-gap: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+.login button {
+    background-color: white;
+    color: gray;
+    padding: 10px;
+    border-color: #333;
+    border-radius: 5px;
+    max-width: 100px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.login button:hover {
+    background-color: #333;
+    color: white;
+}
+
+.login h1 {
+    font-size: 80px;
+    display: grid;
+    justify-content: center;
+}
+
+.login i {
+    font-size: 50px;
+    display: grid;
+    justify-content: center;
+}
+
+.consulta {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 20px 20px;
+    grid-gap: 10px;
+    padding: 10px;
+    max-width: 1000px;
+    height: 100px;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+.consulta i {
+    font-size: 25px;
+    display: grid;
+    justify-content: center;
+}
+
+.consulta button {
+    background-color: white;
+    color: gray;
+    padding: 10px;
+    border-color: #333;
+    border-radius: 5px;
+    height: 80px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.consulta button:hover {
+    background-color: rgb(125, 125, 247);
+    color: white;
+}
+
+.consulta input {
+    padding: 10px;
+    border-color: #333;
+    border-radius: 5px;
+    font-size: 20px;
+    max-height:  25px;
+}
+
+.publi_info {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: 10px;
+    padding: 10px;
+    max-width: 2000px;
+    max-height: 2000px;
+}
+
+.publicidad {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    max-width: 2000px;
+    max-height: 2000px;
+    align-items: center;
+    justify-items: center;
+    border: 2px solid #333;
+}
+
+.publicidad img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.iniciar_sesion {
+    display: grid;
+    grid-template-rows: 0.2fr 0.5fr;
+    grid-gap: 10px;
+    padding: 10px;
+    color: black;
+    border-color: 2px solid #333;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid #333;
+    align-items: center;
+    justify-items: center;
+}
+
+.iniciar_sesion form{
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-gap: 50px;
+    padding: 10px;
+}
+
+.recuperar {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.recuperar button {
+    background-color: white;
+    color: gray;
+    padding: 10px;
+    border-color: #333;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.recuperar button:hover {
+    background-color: orange;
+    color: black;
+}
+
+.correo {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 10px;
+    align-items: center;
+    gap: 20px;
+    text-align: right;
+}
+
+.contraseña {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 10px;
+    align-items: center;
+    gap: 20px;
+    text-align: right;
+}
+
+.iniciar_sesion form input {
+    padding: 10px;
+    border-color: #333;
+    border-radius: 5px;
+    font-size: 20px;
+    max-height:  25px;
+}
+
+.iniciar_sesion form p {
+    font-size: 20px;
+    display: grid;
+    justify-content: center;
+}
+
+.inicio {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+}
+
+.inicio button {
+    background-color: white;
+    color: gray;
+    padding: 10px;
+    border-color: #333;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.inicio button:hover {
+    background-color: #333;
+    color: white;
+}
+
+.iniciar_sesion h1 {
+    font-size: 70px;
+    display: grid;
+    justify-content: center;
+}
+
+.registrate {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+    background-color: white;
+    align-items: center;
+    justify-items: center;
+}
+
+.registrate button {
+    background-color: white;
+    color: gray;
+    padding: 10px;
+    border-color: #333;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 200px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.registrate button:hover {
+    background-color: #83ff94;
+    color: black;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    align-items: center;
+}

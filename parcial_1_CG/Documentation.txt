@@ -1,0 +1,33 @@
+Métodos de Flexbox:
+1. display: flex; - Define un contenedor flexible.
+2. flex-direction - Define la dirección de los elementos flexibles.
+3. justify-content - Alinea los elementos flexibles a lo largo del eje principal.
+4. align-items - Alinea los elementos flexibles a lo largo del eje transversal.
+5. flex-wrap - Especifica si los elementos flexibles deben ajustarse o no.
+6. align-content - Alinea las líneas de un contenedor flexible dentro del contenedor flexible.
+7. flex-grow - Define la capacidad de un elemento flexible para crecer si es necesario.
+8. flex-shrink - Define la capacidad de un elemento flexible para encogerse si es necesario.
+9. flex-basis - Define el tamaño predeterminado de un elemento antes de que se distribuya el espacio restante.
+10. order - Especifica el orden de los elementos flexibles.
+11. align-self - Permite anular la alineación predeterminada para elementos flexibles individuales.
+
+Métodos de Grid:
+1. display: grid; - Define un contenedor de cuadrícula.
+2. grid-template-columns - Define las columnas de la cuadrícula.
+3. grid-template-rows - Define las filas de la cuadrícula.
+4. grid-template-areas - Define una plantilla de cuadrícula haciendo referencia a los nombres de las áreas de la cuadrícula.
+5. grid-gap - Define los espacios entre filas y columnas.
+6. justify-items - Alinea los elementos de la cuadrícula a lo largo del eje en línea (fila).
+7. align-items - Alinea los elementos de la cuadrícula a lo largo del eje de bloque (columna).
+8. justify-content - Alinea el contenido del contenedor de la cuadrícula a lo largo del eje en línea (fila).
+9. align-content - Alinea el contenido del contenedor de la cuadrícula a lo largo del eje de bloque (columna).
+10. grid-auto-columns - Especifica el tamaño de cualquier columna generada automáticamente.
+11. grid-auto-rows - Especifica el tamaño de cualquier fila generada automáticamente.
+12. grid-auto-flow - Controla cómo funciona el algoritmo de colocación automática.
+13. grid-column-start - Especifica la posición de inicio de un elemento de la cuadrícula dentro de la columna de la cuadrícula.
+14. grid-column-end - Especifica la posición de fin de un elemento de la cuadrícula dentro de la columna de la cuadrícula.
+15. grid-row-start - Especifica la posición de inicio de un elemento de la cuadrícula dentro de la fila de la cuadrícula.
+16. grid-row-end - Especifica la posición de fin de un elemento de la cuadrícula dentro de la fila de la cuadrícula.
+17. grid-area - Da un nombre a un elemento para que pueda ser referenciado por una plantilla creada con la propiedad grid-template-areas.
+18. place-items - Una abreviatura para align-items y justify-items.
+19. place-content - Una abreviatura para align-content y justify-content.
